@@ -1,0 +1,12 @@
+.intro-body {
+    display: flex;
+    height: 100vh;
+}
+
+.intro-left {
+    flex: 1;
+}
+
+.intro-right {
+    flex: 1;
+}
