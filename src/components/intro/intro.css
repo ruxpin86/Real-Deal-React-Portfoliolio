@@ -5,6 +5,9 @@
 
 .intro-left {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro-right {
@@ -13,4 +16,53 @@
 
 .intro-left-wrap {
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.greeting{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.intro-name{
+    font-size: 60px;
+}
+
+.intro-titles{
+    height: 50px;
+    overflow: hidden;
+}
+
+.intro-titles-item{
+    height: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(65, 117, 170);
+    display: flex;
+    align-items: center;
+}
+
+.intro-titles-wrap{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px)
+    }
+    75%{
+        transform: translateY(-150px)
+    }
+    100%{
+        transform: translateY(-200px)
+    }
+}
+
+
+
