@@ -1,6 +1,7 @@
 import React from "react";
 import "./intro.css";
 import Me from "../../img/me.png";
+import { CgScrollV } from "react-icons/cg";
 
 const intro = () => {
   return (
@@ -20,15 +21,19 @@ const intro = () => {
                 <div className="intro-titles-item">Problem Solver</div>
               </div>
             </div>
-            <div className="intro-description">
+            <p className="intro-description">
               I am a recently minted bootcamp graduate, motivated to begin a new
               career in the tech industry after spending years in service. I
               enjoy creating stylish and responsive front ends that feel sleak
               and fun, as well as push me to learn skills.
-            </div>
+            </p>
+          </div>
+          <div className="intro-scroll">
+            <CgScrollV />
           </div>
         </div>
         <div className="intro-right">
+          <div className="intro-shape"></div>
           <img src={Me} alt="photo of Ted" className="me-image"></img>
         </div>
       </div>
