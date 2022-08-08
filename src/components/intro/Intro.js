@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import Me from "../../img/me.png";
+import Me from "../../img/headshot.png";
 import { CgScrollV } from "react-icons/cg";
 
 const intro = () => {
@@ -15,7 +15,11 @@ const intro = () => {
               <div className="intro-titles-wrap">
                 <div className="intro-titles-item">DU Bootcamp Graduate</div>
                 <div className="intro-titles-item">Web Developer</div>
-                <div className="intro-titles-item">UX/UI Enthusiast</div>
+                <div className="intro-titles-item">UX/UI Guy</div>
+                <div className="intro-titles-item">HTML/CSS</div>
+                <div className="intro-titles-item">React</div>
+                <div className="intro-titles-item">JavaScript</div>
+                <div className="intro-titles-item">Node.js</div>
                 <div className="intro-titles-item">Bartender</div>
                 <div className="intro-titles-item">DIY Guy</div>
                 <div className="intro-titles-item">Problem Solver</div>
