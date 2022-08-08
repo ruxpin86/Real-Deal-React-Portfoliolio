@@ -92,18 +92,23 @@
 
 .me-image{
     width: 100%;
-    height: 100%;
+    height: 95%;
     object-fit: cover;
     position: absolute;
 }
 
-/* .intro-shape{
-    clip-path: polygon(36% 0, 100% 0%, 100% 100%, 33% 99%, 0% 50%);
-    background-color:  rgb(68, 54, 42);
+.intro-shape-wrap{
+    filter: drop-shadow(100px rgba(black))
+}
+
+.intro-shape{
+    clip-path: polygon(0 0, 100% 29%, 79% 100%, 12% 86%);;;
+    background-color:  #326789;
+    box-shadow: 15px -15px 5px navy;
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     right:0;
-} */
+}
 

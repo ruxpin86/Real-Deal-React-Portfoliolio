@@ -20,6 +20,7 @@ const intro = () => {
                 <div className="intro-titles-item">React</div>
                 <div className="intro-titles-item">JavaScript</div>
                 <div className="intro-titles-item">Node.js</div>
+                <div className="intro-titles-item">SQL</div>
                 <div className="intro-titles-item">Bartender</div>
                 <div className="intro-titles-item">DIY Guy</div>
                 <div className="intro-titles-item">Problem Solver</div>
@@ -37,7 +38,9 @@ const intro = () => {
           </div>
         </div>
         <div className="intro-right">
-          <div className="intro-shape"></div>
+          <div className="intro-shape-wrap">
+            <div className="intro-shape"></div>
+          </div>
           <img src={Me} alt="photo of Ted" className="me-image"></img>
         </div>
       </div>
