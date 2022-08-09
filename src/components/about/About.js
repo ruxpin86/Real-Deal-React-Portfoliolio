@@ -12,7 +12,7 @@ export default function About() {
         </div>
       </div>
       <div className="about-right">
-        <h1 className="about-title">Nice to meet you!</h1>
+        <h2 className="about-title">Nice to meet you!</h2>
         <p className="about-body">
           At the beginning of August I completed the University of Denver's Full
           Stack Coding Boot Camp and I am now currently seeking my first

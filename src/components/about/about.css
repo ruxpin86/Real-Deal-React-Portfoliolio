@@ -1,9 +1,12 @@
 .about{
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
-
+.about h2{
+    font-size: 2rem;
+}
 .about-left{
     position: relative;
     flex: 1;
@@ -16,9 +19,11 @@
 
 .about-right{
     flex: 1;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
-
+    margin: 1rem;
+    margin-top: 30vh;
+    /* border: solid red; */
 }
 
 .about-card{
@@ -45,5 +50,9 @@
     top: 50px;
     left: 50px;
     background-color: #ae3c32;
+}
 
+.about-body{
+    margin-top: 0.75rem;
+    line-height: 1.4;
 }
