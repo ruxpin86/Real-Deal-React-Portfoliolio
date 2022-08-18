@@ -2,5 +2,5 @@ import React from "react";
 import "./projects.css";
 
 export default function Projects() {
-  return <div>Card</div>;
+  return <div className="project">Card</div>;
 }
