@@ -21,7 +21,7 @@ export default function About() {
           design that make websites feel more dynamic and exciting for users by
           learning technologies like GSAP and Spline. In my free time I enjoy
           fly-fishing, golfing, creative writing, and hanging out with my best
-          man Odie. Below you will find some example of the work I have done
+          man Odie. Below you will find some examples of the work I have done
           both in my course as well as on my own!
         </p>
       </div>

@@ -1,0 +1,19 @@
+.projects-list{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project-texts{
+    width: 70%;
+}
+
+.project-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.project-desc{
+    margin: 20px 0px;
+}
