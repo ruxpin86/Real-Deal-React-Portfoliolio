@@ -15,7 +15,7 @@ export default function About() {
         <h2 className="about-title">Nice to meet you!</h2>
         <p className="about-body">
           At the beginning of August I completed the University of Denver's Full
-          Stack Coding Boot Camp and I am now currently seeking my first
+          Stack Coding Boot Camp, and I am now currently seeking my first
           position as a full time web developer. As I continue to build
           projects, I am enjoying getting to focus on the aspects of front end
           design that make websites feel more dynamic and exciting for users by
