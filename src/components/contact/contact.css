@@ -1,0 +1,30 @@
+.contact-main{
+    height: 100vh;
+    position: relative;
+}
+
+.contact-bg{
+    clip-path: polygon(0 0, 50% 49%, 0 100%, 0 100%, 0 50%, 0% 0%);    
+    background-color: #7395af;
+    width: 35%;
+    height: 100%;
+    position: absolute;
+}
+
+.contact-wrapper{
+    padding: 50px;
+    display: flex;
+}
+
+.contact-left{
+    flex: 1;
+}
+.contact-right{
+    flex: 1;
+}
+
+.contact-title{
+    font-size: 3rem;
+    margin-left: 1em;
+    margin-top: .5rem;
+}
