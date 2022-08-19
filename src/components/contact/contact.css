@@ -4,9 +4,9 @@
 }
 
 .contact-bg{
-    clip-path: polygon(0 0, 50% 49%, 0 100%, 0 100%, 0 50%, 0% 0%);    
+    clip-path: polygon(0 0, 0% 100%, 100% 49%);
     background-color: #7395af;
-    width: 35%;
+    width: 50%;
     height: 100%;
     position: absolute;
 }
@@ -27,5 +27,20 @@
     font-size: 3rem;
     margin-left: 1em;
     margin-top: .5rem;
-    width: 50%;
+    width: 70%;
+    position: relative;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 50px ;
+    margin-top: 85px;
+    font-weight: 300;
+}
+
+.contact-icon{
+    width: 40px;
+    height: 40px;
 }
