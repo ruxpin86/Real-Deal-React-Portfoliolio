@@ -6,7 +6,7 @@ import { projects } from "../../data";
 export default function ProjectsList() {
   return (
     <div className="projects-list">
-      <div className="project-texts">
+      <div className="project-text">
         <h1 className="project-title">Check out my work to date!</h1>
         <p className="project-desc">
           Here are some examples of projects that I have completed to date. I am
