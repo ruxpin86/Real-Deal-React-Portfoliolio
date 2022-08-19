@@ -9,7 +9,7 @@ export default function Projects({ img, link }) {
         <div className="circle2"></div>
         <div className="circle3"></div>
       </div>
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="project-img"></img>
       </a>
     </div>

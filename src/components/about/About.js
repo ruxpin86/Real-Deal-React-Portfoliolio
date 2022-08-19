@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import Img from "../../img/look-up.png";
 
 export default function About() {
   return (
@@ -8,7 +7,7 @@ export default function About() {
       <div className="about-left">
         <div className="about-card-bg"></div>
         <div className="about-card">
-          <img className="about-img" src={Img} />
+          <img className="about-img" src="img/look-up.png" />
         </div>
       </div>
       <div className="about-right">

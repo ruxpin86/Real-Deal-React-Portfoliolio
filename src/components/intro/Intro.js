@@ -1,6 +1,5 @@
 import React from "react";
 import "./intro.css";
-import Me from "../../img/headshot.png";
 import { CgScrollV } from "react-icons/cg";
 
 const intro = () => {
@@ -41,7 +40,11 @@ const intro = () => {
           <div className="intro-shape-wrap">
             <div className="intro-shape"></div>
           </div>
-          <img src={Me} alt="photo of Ted" className="me-image"></img>
+          <img
+            src="img/headshot.png"
+            alt="photo of Ted"
+            className="me-image"
+          ></img>
         </div>
       </div>
     </>
