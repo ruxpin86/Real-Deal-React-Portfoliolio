@@ -1,6 +1,7 @@
 import React from "react";
 import "./projectsList.css";
 import Projects from "../projects/Projects";
+import { projects } from "../../data";
 
 export default function ProjectsList() {
   return (
@@ -15,10 +16,9 @@ export default function ProjectsList() {
         </p>
       </div>
       <div className="project-ul">
-        <Projects />
-        <Projects />
-        <Projects />
-        <Projects />
+        {projects.map((item) => (
+          <Projects key={item.id} img={item.img} link={item.link} />
+        ))}
       </div>
     </div>
   );
