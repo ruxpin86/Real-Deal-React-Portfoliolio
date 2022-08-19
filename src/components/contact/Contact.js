@@ -23,7 +23,27 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="contact-right"></div>
+        <div className="contact-right">
+          <p className="contact-question">
+            Need a solid new member on your team?
+          </p>
+          <p className="contact-p">
+            Then let's talk! I'm enjoying the process of learning on all levels;
+            from building projects to solve problems I used to face behind the
+            bar, to figuring out new ones in making native apps, and I'm even
+            enjoying learning how to navigate this new job market. Let me know
+            if you think I might be the right fit for you!
+          </p>
+          <form>
+            <input type="text" placeholder="Your name" name="user_name" />
+            <input type="text" placeholder="Company Name" name="user_subject" />
+            <input
+              type="text"
+              placeholder="Your message and questions here"
+              name="user_email"
+            />
+          </form>
+        </div>
       </div>
     </div>
   );
