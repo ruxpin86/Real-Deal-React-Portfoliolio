@@ -1,8 +1,14 @@
 import React, { useRef } from "react";
 import "./contact.css";
+import { useRef } from "react";
 
 export default function Contact() {
   const formRef = useRef;
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <div className="contact-main">
       <div className="contact-bg"></div>
@@ -35,7 +41,7 @@ export default function Contact() {
             enjoying learning how to navigate this new job market. Let me know
             if you think I might be the right fit for you!
           </p>
-          <form>
+          <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Your name" name="user_name" />
             <input type="text" placeholder="Company Name" name="user_subject" />
             <input type="text" placeholder="Email Address" name="user_email" />
