@@ -1,12 +1,27 @@
 import React, { useRef } from "react";
 import "./contact.css";
-import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 export default function Contact() {
   const formRef = useRef;
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    emailjs
+      .sendForm(
+        "service_iq25q6c",
+        "service_iq25q6c",
+        formRef.current,
+        "GJ-B1FzQgvcQeCTuj"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
