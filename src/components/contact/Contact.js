@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 
 export default function Contact() {
+  const formRef = useRef;
   return (
     <div className="contact-main">
       <div className="contact-bg"></div>
@@ -37,11 +38,13 @@ export default function Contact() {
           <form>
             <input type="text" placeholder="Your name" name="user_name" />
             <input type="text" placeholder="Company Name" name="user_subject" />
-            <input
-              type="text"
-              placeholder="Your message and questions here"
-              name="user_email"
+            <input type="text" placeholder="Email Address" name="user_email" />
+            <textarea
+              rows="5"
+              placeholder="Your message and questions you have for me"
+              name="message"
             />
+            <button>Submit</button>
           </form>
         </div>
       </div>
