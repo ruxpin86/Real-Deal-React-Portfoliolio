@@ -1,6 +1,7 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./contact.css";
 import emailjs from "emailjs-com";
+import { useRef } from "react";
 
 export default function Contact() {
   const formRef = useRef;
@@ -57,6 +58,7 @@ export default function Contact() {
             if you think I might be the right fit for you!
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
+            {/* <form> */}
             <input type="text" placeholder="Your name" name="user_name" />
             <input type="text" placeholder="Company Name" name="user_subject" />
             <input type="text" placeholder="Email Address" name="user_email" />
