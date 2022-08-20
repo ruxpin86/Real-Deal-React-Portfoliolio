@@ -4,14 +4,14 @@ import emailjs from "emailjs-com";
 import { useRef } from "react";
 
 export default function Contact() {
-  const formRef = useRef;
+  const formRef = useRef();
 
   const handleSubmit = (event) => {
     event.preventDefault();
     emailjs
       .sendForm(
         "service_iq25q6c",
-        "service_iq25q6c",
+        "template_jzfi9tn",
         formRef.current,
         "GJ-B1FzQgvcQeCTuj"
       )
