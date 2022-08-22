@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import emailjs from "emailjs-com";
 import { useRef } from "react";
 
 export default function Contact() {
   const formRef = useRef();
+  const [done, setDone] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -18,6 +19,7 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -64,6 +66,8 @@ export default function Contact() {
             <input type="text" placeholder="Email Address" name="user_email" />
             <textarea rows="5" placeholder="Your message here" name="message" />
             <button>Submit</button>
+            {done &&
+              " Thank-you for reaching out, I look forward to speaking with you!"}
           </form>
         </div>
       </div>
