@@ -62,11 +62,7 @@ export default function Contact() {
             <input type="text" placeholder="Your name" name="user_name" />
             <input type="text" placeholder="Company Name" name="user_subject" />
             <input type="text" placeholder="Email Address" name="user_email" />
-            <textarea
-              rows="5"
-              placeholder="Your message and questions you have for me"
-              name="message"
-            />
+            <textarea rows="5" placeholder="Your message here" name="message" />
             <button>Submit</button>
           </form>
         </div>
