@@ -29,7 +29,7 @@ const intro = () => {
               I am a recently minted bootcamp graduate, motivated to begin a new
               career in the tech industry after spending years in service. I
               enjoy creating stylish and responsive front ends that feel sleak
-              and fun, as well as push me to learn skills.
+              and fun, as well as push me to learn new skills.
             </p>
           </div>
           <div className="intro-scroll">
