@@ -67,7 +67,7 @@ export default function Contact() {
             <textarea rows="5" placeholder="Your message here" name="message" />
             <button>Submit</button>
             {done &&
-              " Thank-you for reaching out, I look forward to speaking with you!"}
+              " Thank-you! Your message had been sent, I look forward to speaking with you."}
           </form>
         </div>
       </div>
