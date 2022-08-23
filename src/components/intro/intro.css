@@ -122,6 +122,11 @@
         flex-direction: column;
     }
 
+    .intro-left{
+        margin: 0px;
+        padding: 0px;
+    }
+
     .intro-left-wrap {
         padding: 5px;
         text-align: center;
