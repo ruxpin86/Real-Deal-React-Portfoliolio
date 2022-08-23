@@ -98,3 +98,9 @@ button{
 button:hover{
     box-shadow: 3px 3px #326789;
 }
+
+@media screen and (max-width: 480px){
+    .contact-wrap{
+        flex-direction: column;
+    }
+}

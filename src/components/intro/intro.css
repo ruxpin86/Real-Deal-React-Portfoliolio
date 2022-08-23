@@ -116,3 +116,27 @@
 .intro-description{
     line-height: 1.4;
 }
+
+@media screen and (max-width: 480px){
+    .intro-body{
+        flex-direction: column;
+    }
+
+    .intro-left-wrap {
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .intro-description{
+        display: none;
+    }
+
+    .intro-titles{
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+    }
+}

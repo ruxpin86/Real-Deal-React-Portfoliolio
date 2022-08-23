@@ -24,3 +24,18 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 480px){
+    .projects-list{
+        padding: 10px;
+        margin-top: 7em;
+    }
+
+    .project-text{
+        width: 100%;
+    }
+
+    .project-desc{
+        display: none;
+    }
+}

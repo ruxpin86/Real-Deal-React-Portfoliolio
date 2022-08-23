@@ -56,3 +56,30 @@
     margin-top: 0.75rem;
     line-height: 1.4;
 }
+
+@media screen and (max-width:480px){
+    .about{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .about-card-bg{
+        display: none;
+    }
+
+    .about-left{
+        width: 100%;
+    }
+
+    .about-right{
+        margin-bottom: 5em;
+    }
+
+    .about-card{
+        display: flex;
+        height: 30vh;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
