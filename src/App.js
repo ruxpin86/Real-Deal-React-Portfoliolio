@@ -8,7 +8,6 @@ import "./styles/globals.css";
 const App = () => {
   return (
     <div>
-      <Theme />
       <Intro />
       <About />
       <ProjectsList />
