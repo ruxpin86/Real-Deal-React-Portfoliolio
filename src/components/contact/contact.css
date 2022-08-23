@@ -102,5 +102,45 @@ button:hover{
 @media screen and (max-width: 480px){
     .contact-wrap{
         flex-direction: column;
+        padding: 0px 50px;
+        height: 100%;
+    }
+
+    .contact-bg{
+        clip-path: polygon(0 0, 20% 0, 20% 100%, 0% 100%);
+    }
+
+    .contact-title{
+        font-size: 30px;
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .contact-item{
+        margin: 30px 0px 10px 20px;
+        width: 100%;
+    }
+
+    .contact-question{
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .contact-p{
+        display: none;
+    }
+
+    form{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    input{
+        width: 40%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0;
     }
 }

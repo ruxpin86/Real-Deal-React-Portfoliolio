@@ -74,7 +74,7 @@ export default function Contact() {
             <input
               style={{ backgroundColor: darkMode && "#284B63" }}
               type="text"
-              placeholder="Company Name"
+              placeholder="Company"
               name="user_subject"
             />
             <input
