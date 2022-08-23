@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./contact.css";
 import emailjs from "emailjs-com";
 import { useRef } from "react";
+import { ThemeContext } from "../../context";
 
 export default function Contact() {
   const formRef = useRef();
   const [done, setDone] = useState(false);
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -61,10 +65,30 @@ export default function Contact() {
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             {/* <form> */}
-            <input type="text" placeholder="Your name" name="user_name" />
-            <input type="text" placeholder="Company Name" name="user_subject" />
-            <input type="text" placeholder="Email Address" name="user_email" />
-            <textarea rows="5" placeholder="Your message here" name="message" />
+            <input
+              style={{ backgroundColor: darkMode && "#284B63" }}
+              type="text"
+              placeholder="Your name"
+              name="user_name"
+            />
+            <input
+              style={{ backgroundColor: darkMode && "#284B63" }}
+              type="text"
+              placeholder="Company Name"
+              name="user_subject"
+            />
+            <input
+              style={{ backgroundColor: darkMode && "#284B63" }}
+              type="text"
+              placeholder="Email Address"
+              name="user_email"
+            />
+            <textarea
+              style={{ backgroundColor: darkMode && "#284B63" }}
+              rows="5"
+              placeholder="Your message here"
+              name="message"
+            />
             <button>Submit</button>
             {done &&
               " Thank-you! Your message had been sent, I look forward to speaking with you."}

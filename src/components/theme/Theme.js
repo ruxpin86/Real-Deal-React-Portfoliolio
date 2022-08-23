@@ -16,7 +16,7 @@ export default function Theme() {
       <div
         className="theme-button"
         onClick={handleClick}
-        style={{ left: theme.state.darkMode ? 0 : 25 }}
+        style={{ left: theme.state.darkMode ? 0 : 25, transition: 0.4 }}
       ></div>
     </div>
   );
