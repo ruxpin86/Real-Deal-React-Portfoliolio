@@ -50,6 +50,15 @@
     transform: translateY(-10%);
 }
 
+.project-footer{
+    height: 20px;
+    background-color: #878383;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
 @media screen and (max-width: 480px){
     .project{
         width: 40%;
