@@ -20,6 +20,11 @@ export default function ProjectsList() {
           <Projects key={item.id} img={item.img} link={item.link} />
         ))}
       </div>
+      <div className="project-desc">
+        {projects.map((item) => (
+          <Projects key={item.id} p={item.desc} link={item.git} />
+        ))}
+      </div>
     </div>
   );
 }
