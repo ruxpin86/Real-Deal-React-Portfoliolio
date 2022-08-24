@@ -8,7 +8,8 @@ export default function Projects({ img, link, desc, git }) {
         <div className="circle1"></div>
         <div className="circle2"></div>
         <div className="circle3"></div>
-        <div>
+        <div className="github-link">
+          {/* need to figure out how to link to github here */}
           <a href={git} target="_blank" rel="noreferrer">
             Repository
           </a>

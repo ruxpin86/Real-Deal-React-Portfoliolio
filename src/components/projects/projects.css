@@ -1,6 +1,6 @@
 .project{
     width: 30%;
-    height:20vh;
+    height:22vh;
     margin: 20px 10px;
     border: 2px solid #878383;
     border-radius: 15px 15px 15px 15px;
@@ -8,7 +8,7 @@
 }
 
 .project-header{
-    height: 20px;
+    height: 25px;
     background-color: #878383;
     display: flex;
     align-items: center;
