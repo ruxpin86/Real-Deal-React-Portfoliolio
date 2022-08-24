@@ -12,6 +12,9 @@ export default function Projects({ img, link }) {
       <a href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="project-img"></img>
       </a>
+      <div className="project-footer">
+        <p></p>
+      </div>
     </div>
   );
 }
