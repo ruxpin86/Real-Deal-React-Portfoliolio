@@ -1,5 +1,6 @@
 {
   "name": "real-deal-portfolio",
+  "homepage": "http://tedglynn.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
