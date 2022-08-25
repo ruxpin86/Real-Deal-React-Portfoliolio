@@ -27,4 +27,18 @@ export const projects = [
     desc: "Web app that generates recipes based on user input and provides approximations of dietary macros.",
     git: "",
   },
+  {
+    id: 5,
+    img: "img/note-taker.png",
+    link: "https://the-notebook-2.herokuapp.com/",
+    desc: "Web app that generates recipes based on user input and provides approximations of dietary macros.",
+    git: "",
+  },
+  {
+    id: 6,
+    img: "img/cooking-app.png",
+    link: "https://ruxpin86.github.io/home-cooking-app-project-1/",
+    desc: "Web app that generates recipes based on user input and provides approximations of dietary macros.",
+    git: "",
+  },
 ];
