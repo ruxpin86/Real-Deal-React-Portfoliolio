@@ -36,8 +36,8 @@ export const projects = [
   },
   {
     id: 6,
-    img: "img/cooking-app.png",
-    link: "https://ruxpin86.github.io/home-cooking-app-project-1/",
+    img: "img/drum-kit.png",
+    link: "https://ruxpin86.github.io/come-come-on-the-kick-drum/",
     desc: "Web app that generates recipes based on user input and provides approximations of dietary macros.",
     git: "",
   },
