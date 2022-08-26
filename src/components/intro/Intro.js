@@ -8,8 +8,8 @@ const intro = () => {
       <div className="intro-body">
         <div className="intro-left">
           <div className="intro-left-wrap">
-            <h2 className="greeting">Hi! My name is</h2>
-            <h1 className="intro-name">Ted Glynn</h1>
+            <h2 className="greeting">Hi! I'm...</h2>
+            <h1 className="intro-name">Ted</h1>
             <div className="intro-titles">
               <div className="intro-titles-wrap">
                 <div className="intro-titles-item">DU Bootcamp Graduate</div>
@@ -40,11 +40,7 @@ const intro = () => {
           <div className="intro-shape-wrap">
             <div className="intro-shape"></div>
           </div>
-          <img
-            src="img/headshot.png"
-            alt="photo of Ted"
-            className="me-image"
-          ></img>
+          <img src="img/headshot.png" alt="Ted" className="me-image"></img>
         </div>
       </div>
     </>
