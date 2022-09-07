@@ -40,7 +40,7 @@ const intro = () => {
           <div className="intro-shape-wrap">
             <div className="intro-shape"></div>
           </div>
-          <img src="img/headshot.png" alt="Ted" className="me-image"></img>
+          <img src="img/headshot.webp" alt="Ted" className="me-image"></img>
         </div>
       </div>
     </>

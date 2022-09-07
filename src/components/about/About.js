@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-left">
         <div className="about-card-bg"></div>
         <div className="about-card">
-          <img className="about-img" src="img/look-up.png" />
+          <img className="about-img" src="img/look-up.webp" />
         </div>
       </div>
       <div className="about-right">
