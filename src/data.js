@@ -16,7 +16,7 @@ export const projects = [
   {
     id: 3,
     img: "img/clock-app.png",
-    link: "https://ruxpin86.github.io/Analog-clock-exercise/",
+    link: "https://ruxpin86.github.io/Analog-Clock/",
     desc: "A simple analog clock using the 'date' object in JavaScript.",
     git: "",
   },
