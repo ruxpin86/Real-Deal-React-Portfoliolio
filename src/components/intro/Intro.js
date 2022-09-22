@@ -26,10 +26,10 @@ const intro = () => {
               </div>
             </div>
             <p className="intro-description">
-              I am a recently minted bootcamp graduate, motivated to begin a new
-              career in the tech industry after spending years in service. I
-              enjoy creating stylish and responsive front ends that feel sleak
-              and fun, as well as push me to learn new skills.
+              Full stack web developer with extensive experience in the service
+              industry at all levels, providing exceptional soft-skills and a
+              customer focused approach to developing responsive web
+              applications.
             </p>
           </div>
           <div className="intro-scroll">
