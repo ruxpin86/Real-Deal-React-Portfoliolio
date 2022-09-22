@@ -12,14 +12,14 @@ const intro = () => {
             <h1 className="intro-name">Ted</h1>
             <div className="intro-titles">
               <div className="intro-titles-wrap">
-                <div className="intro-titles-item">DU Bootcamp Graduate</div>
                 <div className="intro-titles-item">Web Developer</div>
-                <div className="intro-titles-item">UX/UI Guy</div>
                 <div className="intro-titles-item">HTML/CSS</div>
-                <div className="intro-titles-item">React</div>
                 <div className="intro-titles-item">JavaScript</div>
+                <div className="intro-titles-item">React</div>
                 <div className="intro-titles-item">Node.js</div>
                 <div className="intro-titles-item">SQL</div>
+                <div className="intro-titles-item">MERN/SERN</div>
+                <div className="intro-titles-item">UX/UI Guy</div>
                 <div className="intro-titles-item">Bartender</div>
                 <div className="intro-titles-item">DIY Guy</div>
                 <div className="intro-titles-item">Problem Solver</div>
